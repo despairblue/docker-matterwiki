@@ -5,7 +5,7 @@ MAINTAINER Danny Arnold <despair.blue@gmail.com>
 RUN apk --update add g++ make python python-dev git \
   && git clone http://github.com/matterwiki/matterwiki /matterwiki \
   && cd /matterwiki \
-  && git checkout v0.2.0 \
+  && git checkout v0.2.3 \
   && npm install \
   && npm run build \
   && rm -rf .git \
